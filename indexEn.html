@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon portfolio</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/icons/feather.png" />
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/animations.js"></script>
+
+</head>
+<body class="container" data-spy="scroll">
+<header id="main-header">
+	<a href="index.html"><img src="img/icons/frenchflag.png" class="flag fr"></a>
+	<a href="indexEn.html"><img src="img/icons/enflag.png" class="flag en"></a>
+	<nav class="main-nav">
+		<ul class="main-nav-list">
+			<li class="name"><a href="#main-nav-list">Pierre Brickley</a></li>	
+			<li class="landing"><a href="#landing-section">Introduction</a></li>	
+			<li class="about"><a href="#about-section">About</a></li>
+			<li class="skills"><a href="#skills-section">Skills</a></li>		
+			<li class="projects"><a href="#projects-section">Work</a></li>
+			<li class="contact"><a href="#contact-section">Contact</a></li>			
+		</ul>
+	</nav>
+</header>
+<main>
+	<section id="landing-section">
+		<div class="section-flex">
+		<span class="fullname">Pierre Brickley</span>
+		<span class="portfolio-title">Portfolio</span>
+		<span class="occupation">Junior Front/Back end web Developer</span>
+		</div>
+	</section>
+	<h3 class="perso-title">About</h3>
+	<section id="about-section">
+		<div class="about-div">
+			<img src="img/photos/photoidentite.JPG" atl="bzzz" class="profile-picture">
+			<span class="about-flex">
+				<h2 class="about-title">In a few words</h1>				
+				<p>Hello, my name is Pierre Brickley, i am a junior web developer. I started to learn about programing thanks to microsoft VBA. I started as a financial controler before seriously getting interested by web technologies : sometimes i had to do repetitives and unpleasing tasks. Thus i decided to create programs in order to automate updating.</p>
+				<p>This is how i started learning about programing and coding, it was quite natural and pleasing so i got seriously interested by it. However my knowledge was restricted to the tasks i had to perform. So i decided to widen my skills and get strong fundamentals, by enrolling myself at 3W academy in Paris. I am currently learning React to strengthen my profile.</p>
+			</span>
+		</div>
+	</section>
+	<h3 class="perso-title">My skills</h3>
+	<section id="skills-section">
+		<div class="skills-div">
+			<ul class="skills-list">
+				<li><img src="img/icons/html5.png" class="skills-logo html"><canvas id="draw" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/css3.png" class="skills-logo css"><canvas id="draw2" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/JS.png" class="skills-logo js"><canvas id="draw3" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/PHP-logo.svg.png" class="skills-logo php"><canvas id="draw4" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/MySQL.svg.png" class="skills-logo mysql"><canvas id="draw5" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/jquery.png" class="skills-logo jquery"><canvas id="draw6" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/bootstrap.png" class="skills-logo bootstrap"><canvas id="draw7" height="200" width="200"></canvas></li>
+				<li><img src="img/icons/logo-symfony.png" class="skills-logo symfony"><canvas id="draw8" height="200" width="200"></canvas></li>
+
+
+
+			</ul>
+		</div>
+	</section>
+	<h3 class="perso-title">My projects</h3>
+	<section id="projects-section">
+		<div class="projects-item1">
+			<img src="img/projets/restaurant1.PNG" class="project-image projectimage1">
+			<h4><i class="fas fa-arrow-circle-left" id="previmg1"></i>Restaurant<i class="fas fa-arrow-circle-right" id="nextimg1"></i></h4>				
+		</div>
+		<div class="projects-item1">
+			<a href="http://www.pedromachuca.me"><img src="img/projets/API_Film1.PNG" class="project-image projectimage2"></a>
+			<h4><i class="fas fa-arrow-circle-left previmg2"></i>API movies<i class="fas fa-arrow-circle-right nextimg2"></i></h4>	
+		</div>
+		<div class="projects-item2">
+			<img src="img/projets/MindGeek1.PNG" class="project-image projectimage3">
+			<h4><i class="fas fa-arrow-circle-left previmg3"></i>MindGeek<i class="fas fa-arrow-circle-right nextimg3"></i></h4>	
+		</div>
+		<div class="projects-item2">
+			<img src="img/projets/Cupoftea1.PNG" class="project-image projectimage4">
+			<h4><i class="fas fa-arrow-circle-left previmg4"></i>Cup of tea<i class="fas fa-arrow-circle-right nextimg4"></i></h4>	
+		</div>
+	</section>
+	<h3 class="perso-title">Contact</h3>
+	<section id="contact-section">
+		<span class="linkedin">
+			<a href="img/resume/CV_Pbrickley_111118En.pdf" >Resume</a>
+		</span>		
+		<form class="contact-form" action="form.php" method="post" >
+			<fieldset>
+				<input type="text" name="namebox" placeholder="Your name" class="input-name">
+				<input type="e-mail" name="mailbox" placeholder="Your e-mail"class="input-mail">
+				<textarea class="input-message" name="message">Your Message</textarea>
+				<button type="submit" class="cta">Send</button>
+			</fieldset>
+		</form>
+	</section>
+</main>
+<footer>
+	<p>Pierre Brickley - 2018</p>
+</footer>
+</body>
+	<script src="js/slider.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+<!--     <script src="js/classes/ColorPalette.class.js"></script> -->
+</html>
